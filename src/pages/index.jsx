@@ -1,6 +1,6 @@
 import Typewriter from "typewriter-effect";
 import { Facebook, GitHub, Layers } from "react-feather";
-import codingBro from "../assets/images/landing-image.jpeg";
+import codingBro from "../assets/images/landing-image.png";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <div className="lg:min-h-[100vh] mt-[80px] lg:mt-0 flex justify-center lg:justify-start lg:items-center">
           <div>
             <h2 className="font-bold text-[16px] text-gray-800">
-              Hello, I am Bishnu Thapa.
+              Hello, I am Jayesh Neupane.
             </h2>
 
             <div className="mt-2 inline-flex">
@@ -41,7 +41,7 @@ const Home = () => {
               </div>
               <div className="text-gray-800">
                 <p>+977 9806131392</p>
-                <p className="mt-3">bishnuthapa1820@gmail.com</p>
+                <p className="mt-3">joy11@gmail.com</p>
                 <p className="mt-3">Pokhara, Nepal</p>
               </div>
             </div>

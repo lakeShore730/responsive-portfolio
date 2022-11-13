@@ -1,6 +1,6 @@
-import Lining from "../components/common/lining";
-import aboutMeImg from "../assets/images/about-me.jpeg";
 import { Facebook, GitHub, Layers, Mail, Phone } from "react-feather";
+import Lining from "../components/common/lining";
+import aboutMeImg from "../assets/images/about-me.png";
 
 const ContactMe = () => {
   return (

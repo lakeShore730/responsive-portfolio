@@ -1,6 +1,6 @@
 import { Code, Figma, HardDrive, Layers } from "react-feather";
 import Lining from "../components/common/lining";
-import aboutMeImg from "../assets/images/about-me.jpeg";
+import aboutMeImg from "../assets/images/about-me.png";
 
 const AboutMe = () => {
   return (
