@@ -14,15 +14,14 @@ const AboutMe = () => {
             ABOUT ME
           </p>
           <h1 className="text-[24px] md:text-[30px] font-extrabold mt-4 tracking-wide text-gray-900">
-            Hello, I am Bishnu Thapa.
+            Hello, I am Jay Neupane.
           </h1>
           <Lining className="mt-4" type="secondary" />
 
           <p className="mt-4 text-[16px] font-medium tracking-wider leading-8 text-gray-900">
-            Experience and creative full-stack developer with +1.5 years’
-            background in web development. Highly motivated BIT graduate with
-            good knowledge and experience in web development. Passionate about
-            building responsive web design using various frameworks.
+            Business and IT professional with +3 years of experience in IT Auditing, and business analysis. Full-stack developer with +3 years
+            background in web development. Highly motivated with knowledge and experience in IT , and software development. Passionate about
+            working with new technologies and building responsive web designs using various frontend and backend frameworks.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-8 mt-10">
