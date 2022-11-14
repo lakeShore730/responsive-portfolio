@@ -35,14 +35,25 @@ const education = [
 const experience = [
   {
     id: "fullstack-developer",
-    title: "FullStand Developer",
+    title: "FullStank Developer",
     subtitle: "React JS and Django",
     date: "05-2021-current",
     icon: (props) => <Code {...props} />,
     description:
-      "I have been working as a fullstack development at Lakeshore LLC.",
+      "I have been working as a fullstack development at Lakeshore LLC."
   },
 
+  {
+    id: "machine-learning",
+    title: "UnitedHealthCare",
+    subtitle: "Business Analyst",
+    date: "02-2022-current",
+    icon: (props) => <Layers {...props} />,
+    description:
+    "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team"
+    ,
+    
+  },
   {
     id: "machine-learning",
     title: "PricewaterhouseCoopers",
@@ -50,8 +61,9 @@ const experience = [
     date: "02-2022-current",
     icon: (props) => <Layers {...props} />,
     description:
-    "I have been working as a ML enthusiast at Lake Shore LLC."
+    "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews."
     ,
+    
   },
 ];
 
