@@ -19,7 +19,7 @@ const ContactMe = () => {
           <Lining className="mt-4" type="secondary" />
 
           <p className="mt-4 text-[16px] font-medium tracking-wider leading-8">
-            You can contact me through one of the information given below.
+            You can contact me through the information below.
           </p>
 
           <div className="grid grid-cols-1 gap-8 mt-8">
@@ -32,7 +32,7 @@ const ContactMe = () => {
                 <p className="text-gray-700">Contact Number</p>
               </div>
               <p className="text-[16px] mt-3 ml-[25px] font-semibold text-gray-700">
-                +977 9806131392
+               +1 612-805-2852
               </p>
             </div>
 
@@ -45,10 +45,7 @@ const ContactMe = () => {
                 <p className="text-gray-700">Mail</p>
               </div>
               <p className="text-[16px] mt-3 ml-[25px] font-semibold text-gray-700">
-                bishnuthapa1820@gmail.com
-              </p>
-              <p className="text-[16px] mt-3 ml-[25px] font-semibold text-gray-700">
-                yumickgharti@gmail.com
+              jayesh.neupane@gmail.com
               </p>
             </div>
 
@@ -58,7 +55,7 @@ const ContactMe = () => {
               </p>
               <div className="flex gap-5 mt-3">
                 <a
-                  href="https://stackoverflow.com/users/12390858/yumick-gharti"
+                  href="-"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -66,14 +63,14 @@ const ContactMe = () => {
                 </a>
 
                 <a
-                  href="https://github.com/bishnuthapa1820"
+                  href="https://github.com/jay730"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <GitHub className="border rounded-full p-[3px] cursor-pointer text-white bg-primary" />
                 </a>
                 <a
-                  href="https://www.facebook.com/yumick.ghertee"
+                  href="-"
                   target="_blank"
                   rel="noreferrer"
                 >
