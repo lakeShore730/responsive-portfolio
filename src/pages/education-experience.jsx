@@ -5,62 +5,52 @@ import Lining from "../components/common/lining";
 
 const education = [
   {
-    id: "bachelor",
-    title: "Informatics College Pokhara",
-    subtitle: "BIT | Pokhara, Nepal",
-    date: "2019-2021",
+    id: "Master of Science",
+    title: "Georgia Institute of Technology",
+    subtitle: "Atlanta, Georgia",
+    date: "Currently Attending - Partime",
     icon: (props) => <Award {...props} />,
     description:
-      "Studied and graduated from one of the best IT colleges, Informatics College Pokhara. This college provides high-quality education.",
+      "Masters of Science in Cybersecurity",
   },
   {
-    id: "plus2",
-    title: "Ranta Laxmi Higher Secondary School",
-    subtitle: "+2 Management | Baglung, Nepal",
-    date: "2016-2018",
-    icon: (props) => <Book {...props} />,
-    description: "I had studied my + 2 in this school.",
+    id: "Bachelors of Arts",
+    title: "University of St Thomas",
+    subtitle: "St Paul, Minnesota",
+    date: "2015-2019",
+    icon: (props) => <Award {...props} />,
+    description:
+      "Bachelors of Arts in Finance with a Minor in Computer Science",
   },
-
   {
-    id: "slc",
-    title: "Ranta Laxmi Higher Secondary School",
-    subtitle: "SLC | Baglung, Nepal",
-    date: "2008-2016",
+    id: "High School",
+    title: "Eden Prairie High School",
+    subtitle: "Eden Prairie, Minnesota",
+    date: "2011-2015",
     icon: (props) => <Book {...props} />,
-    description: "I had studied in this school, since my childhood.",
+    description: "",
   },
 ];
 
 const experience = [
   {
-    id: "frontend-developer",
-    title: "Frontend Developer",
-    subtitle: "React JS and Next jS | Pokhara, Nepal",
-    date: "08-2021-current",
+    id: "fullstack-developer",
+    title: "FullStand Developer",
+    subtitle: "React JS and Django",
+    date: "05-2021-current",
     icon: (props) => <Code {...props} />,
     description:
-      "I have been working as a front-end developer at Black Tech (Located in Pokhara).",
-  },
-
-  {
-    id: "backend-developer",
-    title: "Backend Developer",
-    subtitle: "Django and DRF | US",
-    date: "02-2021-current",
-    icon: (props) => <HardDrive {...props} />,
-    description:
-      "I have been working as a Django developer at Lake Shore (located in the US).",
+      "I have been working as a fullstack development at Lakeshore LLC.",
   },
 
   {
     id: "machine-learning",
     title: "Machine Learning",
     subtitle: "ML Export | US",
-    date: "02-2021-current",
+    date: "02-2022-current",
     icon: (props) => <Layers {...props} />,
     description:
-      "I have been working as a ML export at Lake Shore (located in the US).",
+      "I have been working as a ML enthusiast at Lake Shore LLC.",
   },
 ];
 
@@ -83,12 +73,12 @@ const EducationExperience = () => {
 
         <div className="mt-16 pb-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <ExperienceLoader title="Frontend Developer" level={95} />
-            <ExperienceLoader title="Backend Developer" level={85} />
+            <ExperienceLoader title="Frontend Developer" level={70} />
+            <ExperienceLoader title="Backend Developer" level={70} />
             <ExperienceLoader title="Machine Learning (ML)" level={70} />
-            <ExperienceLoader title="Bootstrap" level={90} />
-            <ExperienceLoader title="Tailwind CSS" level={95} />
-            <ExperienceLoader title="CSS" level={90} />
+            <ExperienceLoader title="Bootstrap" level={80} />
+            <ExperienceLoader title="Tailwind CSS" level={75} />
+            <ExperienceLoader title="CSS" level={80} />
           </div>
         </div>
       </div>
