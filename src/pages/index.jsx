@@ -9,7 +9,7 @@ const Home = () => {
         <div className="lg:min-h-[100vh] mt-[80px] lg:mt-0 flex justify-center lg:justify-start lg:items-center">
           <div>
             <h2 className="font-bold text-[16px] text-gray-800">
-              Hello, I am Jayesh Neupane.
+              Hello, I am Jay Neupane.
             </h2>
 
             <div className="mt-2 inline-flex">
@@ -21,9 +21,10 @@ const Home = () => {
                   autoStart: true,
                   loop: true,
                   strings: [
-                    "React developer",
-                    "Django developer",
-                    "machine-learning export",
+                    "Business Analyst",
+                    "Python developer",
+                    "Devops Analyst",
+                    "Machine-learning enthusiast",
                   ],
                   wrapperClassName:
                     "text-[22px] md:text-[24px] lg:text-[28px] font-bold text-gray-900",
@@ -41,13 +42,13 @@ const Home = () => {
               </div>
               <div className="text-gray-800">
                 <p>+977 9806131392</p>
-                <p className="mt-3">joy11@gmail.com</p>
-                <p className="mt-3">Pokhara, Nepal</p>
+                <p className="mt-3">jayesh.neupane@gmail.com</p>
+                <p className="mt-3">Minnesota</p>
               </div>
             </div>
             <div className="flex gap-5 mt-6">
               <a
-                href="https://stackoverflow.com/users/12390858/yumick-gharti"
+                href="-"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -55,14 +56,14 @@ const Home = () => {
               </a>
 
               <a
-                href="https://github.com/bishnuthapa1820"
+                href="https://github.com/jay730"
                 target="_blank"
                 rel="noreferrer"
               >
                 <GitHub className="border rounded-full p-[3px] cursor-pointer text-white bg-primary" />
               </a>
               <a
-                href="https://www.facebook.com/yumick.ghertee"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
