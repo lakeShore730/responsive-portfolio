@@ -22,7 +22,7 @@ const works = [
     id: "maya-museum",
     title: "Maya Museum",
     work: "Fullstack",
-    link: "/",
+    link: "https://maya-museum.vercel.app/",
     description:
       "Maya museum, made using React JS, which gives users to buy traditional statues, paintings, and sculptures.",
   },
