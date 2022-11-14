@@ -41,7 +41,7 @@ const Home = () => {
                 <p className="mt-3">ADDRESS:</p>
               </div>
               <div className="text-gray-800">
-                <p>+977 9806131392</p>
+                <p>+1 612-805-2852</p>
                 <p className="mt-3">jayesh.neupane@gmail.com</p>
                 <p className="mt-3">Minnesota</p>
               </div>
