@@ -50,12 +50,8 @@ const experience = [
     date: "02-2022-current",
     icon: (props) => <Layers {...props} />,
     description:
-      <><br>"Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews."</br>
-      <br>"Create Standard operating procedures (SOP) for associates and service delivery centers to efficiently perform process controls testing."</br>
-      <br>"Make Tablueu and Power BI dashboards on a weekly basis to show team the progress of tasks." </br>
-      <br>"Host daily standup meetings with teams to discuss workflows and issues faced."</br>
-      </>
-      ,
+    "I have been working as a ML enthusiast at Lake Shore LLC."
+    ,
   },
 ];
 
