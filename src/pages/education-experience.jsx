@@ -36,7 +36,7 @@ const experience = [
     id: "machine-learning",
     title: "UnitedHealthCare",
     subtitle: "Business Analyst",
-    date: "02-2022-current",
+    date: "06-2022-current",
     icon: (props) => <Layers {...props} />,
     descriptions: [
       "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team.",
@@ -48,7 +48,7 @@ const experience = [
     id: "machine-learning",
     title: "PricewaterhouseCoopers",
     subtitle: "Digital Risk Associate",
-    date: "02-2022-current",
+    date: "08-2019 - 06-2022",
     icon: (props) => <Layers {...props} />,
     descriptions: [
       "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews.",
@@ -61,7 +61,7 @@ const experience = [
     id: "fullstack-developer",
     title: "FullStank Developer",
     subtitle: "React JS and Django",
-    date: "05-2021-current",
+    date: "05-2020-current",
     icon: (props) => <Code {...props} />,
     descriptions: [
       "I have been working as a fullstack development at Lakeshore LLC.",
