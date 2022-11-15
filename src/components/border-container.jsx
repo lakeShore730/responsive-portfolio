@@ -38,9 +38,22 @@ const BorderContainer = (props) => {
                 </div>
               </div>
             </div>
-            <p className="ml-[50px] mt-5 tracking-wide leading-7 text-gray-800">
-              {item.description}
-            </p>
+            {item.description && (
+              <p className="ml-[50px] mt-5 tracking-wide leading-7 text-gray-800">
+                {item.description}
+              </p>
+            )}
+            <div classname="mt-2">
+              {item.descriptions &&
+                item?.descriptions.map((description, i) => (
+                  <p
+                    key={i}
+                    className="ml-[50px] mt-1 tracking-wide leading-4 text-gray-800"
+                  >
+                    {description}
+                  </p>
+                ))}
+            </div>
           </Fragment>
         ))}
       </div>

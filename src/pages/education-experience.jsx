@@ -39,8 +39,8 @@ const experience = [
     subtitle: "React JS and Django",
     date: "05-2021-current",
     icon: (props) => <Code {...props} />,
-    description:
-      "I have been working as a fullstack development at Lakeshore LLC."
+    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
+    ,
   },
 
   {
@@ -51,6 +51,8 @@ const experience = [
     icon: (props) => <Layers {...props} />,
     description:
     "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team"
+    ,
+    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
     ,
     
   },
@@ -63,6 +65,7 @@ const experience = [
     description:
     "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews."
     ,
+    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
     
   },
 ];
