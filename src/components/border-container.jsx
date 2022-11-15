@@ -48,7 +48,7 @@ const BorderContainer = (props) => {
                 item?.descriptions.map((description, i) => (
                   <p
                     key={i}
-                    className="ml-[50px] mt-1 tracking-wide leading-4 text-gray-800"
+                    className="ml-[50px] mt-1 tracking-wide leading-5 text-gray-800"
                   >
                     {description}
                   </p>

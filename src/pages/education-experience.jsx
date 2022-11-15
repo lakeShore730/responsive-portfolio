@@ -10,8 +10,7 @@ const education = [
     subtitle: "Atlanta, Georgia",
     date: "Currently Attending - Partime",
     icon: (props) => <Award {...props} />,
-    description:
-      "Masters of Science in Cybersecurity",
+    description: "Masters of Science in Cybersecurity",
   },
   {
     id: "Bachelors of Arts",
@@ -34,27 +33,16 @@ const education = [
 
 const experience = [
   {
-    id: "fullstack-developer",
-    title: "FullStank Developer",
-    subtitle: "React JS and Django",
-    date: "05-2021-current",
-    icon: (props) => <Code {...props} />,
-    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
-    ,
-  },
-
-  {
     id: "machine-learning",
     title: "UnitedHealthCare",
     subtitle: "Business Analyst",
     date: "02-2022-current",
     icon: (props) => <Layers {...props} />,
-    description:
-    "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team"
-    ,
-    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
-    ,
-    
+    descriptions: [
+      "Track, and deliver key quality success measures related to accuracy and timeliness of communications projects flowing through the platform/team.",
+      "Partner with marketing leads, IT, and other internal stakeholders to deliver a scalable CCM platform that meets all business needs in a cost effective, timely manner.",
+      "Monitor performance and quality control plans to review and identify any issues or ways to improve the end-to-end lifecycle with member and provider communication projects.",
+    ],
   },
   {
     id: "machine-learning",
@@ -62,11 +50,22 @@ const experience = [
     subtitle: "Digital Risk Associate",
     date: "02-2022-current",
     icon: (props) => <Layers {...props} />,
-    description:
-    "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews."
-    ,
-    descriptions:["I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC.","I have been working as a fullstack development at Lakeshore LLC."]
-    
+    descriptions: [
+      "Perform planning, evidence gathering, testing, documentation, and review on IT general controls and business process reviews.",
+      "Make Tablueu and Power BI dashboards on a weekly basis to show team the progress of tasks.",
+      "Host daily standup meetings with teams to discuss workflows and issues faced.",
+      "Create Standard operating procedures (SOP) for associates and service delivery centers to efficiently perform process controls testing.",
+    ],
+  },
+  {
+    id: "fullstack-developer",
+    title: "FullStank Developer",
+    subtitle: "React JS and Django",
+    date: "05-2021-current",
+    icon: (props) => <Code {...props} />,
+    descriptions: [
+      "I have been working as a fullstack development at Lakeshore LLC.",
+    ],
   },
 ];
 
