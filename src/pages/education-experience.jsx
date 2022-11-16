@@ -59,7 +59,7 @@ const experience = [
   },
   {
     id: "fullstack-developer",
-    title: "FullStank Developer",
+    title: "FullStack Developer",
     subtitle: "React JS and Django",
     date: "05-2020-current",
     icon: (props) => <Code {...props} />,
